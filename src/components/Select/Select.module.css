@@ -1,0 +1,19 @@
+.select .main{
+    display: block;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0 10px;
+}
+.select ul {
+    list-style-type: none;
+    margin: 0;
+    padding:10px;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+}
+.item.selected {
+    background-color: #1ea7fd;
+    color: #fff;
+    cursor: pointer;
+}

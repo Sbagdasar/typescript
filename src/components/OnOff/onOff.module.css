@@ -1,0 +1,27 @@
+.onOffBtns{
+    display: flex;
+}
+.onBtn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+.offBtn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+.lamp{
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.onned{
+    background-color: green;
+}
+.offed{
+    background-color: red;
+}
