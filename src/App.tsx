@@ -21,9 +21,9 @@ let [ratingValue, setRatingValue]=useState<RatingValueType>(0)
             {/*<PageTitle title={"App title"}/>*/}
             {/*<PageTitle title={"App title2"}/>*/}
 
-            {/*<UnControlAccordion titleValue={'Menu 1'}/>*/}
+            <UnControlAccordion titleValue={'Menu 1'}/>
             {/*<UnControlRating/>*/}
-            <Accordion titleValue={'Accordion menu'} collapsed={collapse} onChange={()=>setCollapse(!collapse)} items={arr}  onClick={(value)=>{alert(value)}}/>
+            {/*<Accordion titleValue={'Accordion menu'} collapsed={collapse} onChange={()=>setCollapse(!collapse)} items={arr}  onClick={(value)=>{alert(value)}}/>*/}
             <br/>
             <br/>
             <br/>
