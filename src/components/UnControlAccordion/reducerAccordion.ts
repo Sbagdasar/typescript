@@ -1,5 +1,5 @@
 export type ActionType = {
-    type: "TOGGLE-ACCORDION"
+    type: string
 }
 export type StateType = {
     collapsed: boolean

@@ -6,9 +6,11 @@ type UnControlAccordionPropsType = {
 }
 
 function UnControlAccordion(props: UnControlAccordionPropsType) {
-
+const state = {
+    collapsed:false,
+}
 // const [collapsed, setCollapsed]= useState(false)
-    const [collapsed, dispatch] =  useReducer(reducer,{collapsed:false})
+    const [collapsed, dispatch] =  useReducer(reducer,state)
     const setCollapse=()=>{
 
         dispatch({type:"TOGGLE-ACCORDION"})
